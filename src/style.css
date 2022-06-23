@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.nav--logo {
+    width: 55.79px;
+    height: 55.22px;
+}
+
+.nav--title {
+    color: white;
+}
+
+.nav--text {
+    margin-left: auto; /* to move the text to right */
+    padding-right: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    padding: 20px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 10px;
+}
+
+.form--input {
+    width: 330px;
+    height: 35px;
+    margin: 20px;
+    font-family: Poppins;
+    text-indent: 5px;
+}
+
+.form--button {
+    display: block;
+    margin-left: auto;  /*move the button to the center */
+    margin-right: auto; /*move the button to the center */
+    width: 477px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins;
+    letter-spacing: 0.1em;
+}
+
+.emoji--logo {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    padding: 2px;
+}
+
+.form--image {
+    width: 600px;
+    height: 670px;
+    margin-left: auto;  
+    margin-right: auto;
+    display: flex;
+    justify-content: center;   
+    border-style: double;
+}
